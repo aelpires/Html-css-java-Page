@@ -1,6 +1,6 @@
-/*  import google fonts */
+/*  imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import 'buttons.scss';
 *{
     margin: 0;
     padding: 0;
@@ -161,7 +161,6 @@ section .title::after{
     filter: brightness(90%);
 }
 
-
 /* home section styling */
 .home{
     display: flex;
@@ -253,7 +252,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: rgb(7, 7, 14);
     background: none;
 }
 
@@ -366,29 +365,30 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .react::before{
+    width: 70%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .node::before{
     width: 70%;
 }
 
 /* projects section styling */
 .projects .title::after{
-    content: "what I have done";
+    content: "Some projects I've done";
 }
 .projects .carousel .card{
-    background: #222;
+    background: #111;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    color:#fff;
 }
 .projects .carousel .card:hover{
     background: crimson;

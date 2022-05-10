@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -19,7 +20,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">AP<span>Tech.</span></a></div>
+            <div class="logo"><img src="images/logo.png" alt="logo" /></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -41,7 +42,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Alexandre Pires</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#">Download CV</a>
             </div>
         </div>
     </section>
@@ -55,9 +56,15 @@
                     <img src="images/profile-1.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Alexandre and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="#">Download CV</a>
+                    <div class="text">My name is Alex and I'm a: <span class="typing-2"></span></div>
+                    <br>
+                    <p>Hello :) As stated above, my name is <b>Alexandre Eduardo Lagoa Pires</b>, I'm 32 years old and I live in <b>Porto, Portugal.</b> Since I was young I've always felt interested in computers and programming. This is my personal Website. <b>Hope you like it</b>!</p>
+                    <div class="social-container">
+                        <ul class="social-icons">
+                            <a href="https://www.instagram.com/alexandre.lpires/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/alexandre-pires-a6ba131a1/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/aelpires"><i class="fa fa-github"></i></a>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -70,22 +77,22 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
+                        <i class="fas fa-code"></i>
                         <div class="text">Front-end Developer</div>
-                        <p>Html/Css/JavaScript/ReactJs</p>
+                        <p>UX Design/Html/Css/Responsive Web Development/JavaScript/React/ Git/NodeJS</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Photography/Video</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">Photography/Video/3D</div>
+                        <p>Photoshop/Lightroom/DaVinci Resolve/After Efects/Blender </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Coming soon</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
                 </div>
@@ -97,7 +104,7 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title">Front-end main skills</h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
@@ -115,7 +122,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>90%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
@@ -128,17 +135,17 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
+                            <span>React</span>
+                            <span>70%</span>
                         </div>
-                        <div class="line php"></div>
+                        <div class="line react"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>MySQL</span>
+                            <span>NodeJS</span>
                             <span>70%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line node"></div>
                     </div>
                 </div>
             </div>
@@ -152,37 +159,30 @@
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="images/roullete-Edit.jpg" alt="">
+                        <div class="text">Roullete</div>
+                        <p>Encompassed in the <B>final course project</B>, the <b>fruut roulette</b> would make consumers aware about the long range of products from the brand..</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="images/ipad.jpg" alt="">
+                        <div class="text">TinderFruut Swipe Cards</div>
+                        <p>Like the Roulette, <b>TinderFruut</b> would allow the customer to interact with the brand, being able to choose the flavors they like and those they don't like..</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="images/Responsive Web.jpg" alt="">
+                        <div class="text">Responsive WebPage</div>
+                        <p>A well designed Responsive WebPage that will load correctly no matter the size of your screen. </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="images/registrationform.jpg" alt="">
+                        <div class="text">Registration Forms</div>
+                        <p>Also Registration forms to interact with costumers, and allow <b>Brands</b> to create Costumers databases. </p>
                     </div>
                 </div>
             </div>
