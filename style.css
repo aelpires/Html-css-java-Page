@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: goldenrod;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -124,6 +124,15 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+}
+
+.clock {
+
+	background-color: none;
+	color: goldenrod;
+	display: grid;
+	place-items: center;
+	font-size: 15px;
 }
 
 /* menu btn styling */
@@ -379,7 +388,8 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "Some projects I've done";
+    content: "Some projects I've done, most of them can be found at my GitHub portfolium";
+    font-size: 14px; 
 }
 .projects .carousel .card{
     background: #111;
